@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+
+    <style>
+        #regForm {
+            width: 50%;
+            padding: 10px;
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+        }
+        #personalDetails {
+            border: 1px solid black;
+            background-color: #ffffdc;
+            padding: 10px;
+            padding-bottom: 20px;
+            
+        }
+        #city {
+            border: 1px solid black;
+            background-color: #ffffdc;
+            padding: 10px;
+        }
+        .header {
+            position: absolute;
+            margin-top:-25px;
+            margin-left:10px;
+            background-image: linear-gradient(to bottom, white 50%, #ffffdc 50%);
+            padding: 5px;
+        }
+
+        .field {
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .req {
+            width: 100px;
+            text-align: right;
+        }
+        .input{
+            width: 200px;
+            text-align: left;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    
+    <div id="regForm">
+        <form action="" method="post">
+            <div id="personalDetails">
+                <div class="header">Personal details</div>
+                <div class="field" id="firstName">
+                  <label for="fname" class="req">First name</label> <input type="text" name="fname" id="fname" class="input">
+                </div><br>
+                <div class="field"  id="lastName">
+                  <label for="lname" class="req">Last name</label> <input type="text" name="lname" id="lname" class="input">
+                </div><br>
+                <div class="field" id="eMail">
+                  <label for="email" class="req">Email address</label> <input type="email" name="email" id="email" class="input">
+                </div><br>
+                <div class="field" id="gender">
+                    <label for="gender" class="req">Gender</label>
+                  <div class="input">
+                    <input type="radio" name="Gender" id="male" value="male" > <label for="male">Male</label>
+                    <input type="radio" name="Gender" id="female" value="female" > <label for="female">Female</label>
+                  </div>
+                  
+                </div>
+            </div> <br>
+            
+            <div id="city">
+                <div class="header">City</div>
+                
+                <div >
+                    <label for="City" style="margin-right: 10px;">City</label>
+                    <select name="City" id="City" style="margin-left: 10px;">
+                      <option value="">Amman</option>
+                      <option value="">Ajloun</option>
+                      <option value="">Aqaba</option>
+                      <option value="">Balqa</option>
+                      <option value="">Irbid</option>
+                      <option value="">Jerash</option>
+                      <option value="">Karak</option>
+                      <option value="">Ma'an</option>
+                      <option value="">Madaba</option>
+                      <option value="">Mafraq</option>
+                      <option value="">Tafilah</option>
+                      <option value="">Zarqa</option>
+                </select>
+                </div>
+               
+               
+            </div> <br> <br>
+
+            <div id="subscripe">
+              <input type="submit" value="Subscripe">
+           </div>
+        </form>
+        
+    </div>
+</body>
+</html>

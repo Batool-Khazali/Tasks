@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2</title>
+
+    <style>
+        #regForm {
+            border: 1px dotted black;
+            width: 50%;
+            padding: 10px;
+            padding-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form !</h1>
+    
+    <div id="regForm">
+        <form action="" method="post">
+            <p style="font-weight: bold ;">Personal details</p>
+            <hr>
+            <div id="firstName">
+               <label for="fname">First name:</label> <input type="text" name="fname" id="fname">
+            </div><br>
+            <div id="lastName">
+               <label for="lname">Last name:</label> <input type="text" name="lname" id="lname">
+            </div><br>
+            <div id="eMail">
+               <label for="email">Email:</label> <input type="email" name="email" id="email">
+            </div><br>
+            <div id="gender">
+               <label for="gender">Gender:</label> 
+               <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+               <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label>
+            </div><br>
+            <div id="city">
+               <label for="city">City:</label>
+               <select name="City" id="city">
+                   <option value="">Amman</option>
+                   <option value="">Ajloun</option>
+                   <option value="">Aqaba</option>
+                   <option value="">Balqa</option>
+                   <option value="">Irbid</option>
+                   <option value="">Jerash</option>
+                   <option value="">Karak</option>
+                   <option value="">Ma'an</option>
+                   <option value="">Madaba</option>
+                   <option value="">Mafraq</option>
+                   <option value="">Tafilah</option>
+                   <option value="">Zarqa</option>
+                </select>
+            </div> <br>
+           <div id="signUp">
+              <input type="submit" value="Sign Up">
+           </div>
+        </form>
+        
+    </div>
+</body>
+</html>

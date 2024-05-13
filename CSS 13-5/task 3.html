@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3</title>
+
+    <style>
+        .container {
+            border: 2px dotted black;
+            width: fit-content;
+        }
+        .redBox {
+            display: inline-block;
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+        .greenBox1 {
+            display: inline-block;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            position: static;
+        }
+        
+        .greenBox2 {
+            display: inline-block;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        
+        .greenBox3 {
+            display: inline-block;
+            background-color: green;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 400px;
+            left: 30px;
+        }
+        p {
+            font-family: sans-serif;
+        }
+        
+    </style>
+</head>
+<body>
+    <div >
+        <p>position: static</p>
+        <div class="container">
+            <div class="redBox"> One</div>
+            <div class="greenBox1">Two</div>
+            <div class="redBox">Three</div>
+            <div class="redBox">Four</div>
+        </div>
+    </div>
+    <br>
+    <div >
+        <p>position: relative</p>
+        <div class="container">
+            <div class="redBox"> One</div>
+            <div class="greenBox2">Two</div>
+            <div class="redBox">Three</div>
+            <div class="redBox">Four</div>
+        </div>
+    </div>
+    <br>
+    <div >
+        <p>position: absolute</p>
+        <div class="container">
+            <div class="redBox"> One</div>
+            <div class="greenBox3">Two</div>
+            <div class="redBox">Three</div>
+            <div class="redBox">Four</div>
+        </div>
+    </div>
+</body>
+</html>

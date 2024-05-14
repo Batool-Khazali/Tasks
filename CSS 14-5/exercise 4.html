@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 10px;
+
+            /* the following is for the Flex solution */
+            /* display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: start;
+            gap: 10px; */
+
+        }
+        
+        img {
+            width: 100%;
+            height: 300px;
+            
+            /* width: calc((100% / 3) - 20px); */
+            
+        }
+            </style>
+</head>
+<body>
+    <!-- there's two solutions, one using grids, and the other using flex -->
+    
+
+    <div class="container">
+        <img src="xaycNDmeyxpHDrPqU6LmaD.jpg" alt="mountain">
+        <img src="DJI_2994-1067x800.jpg" alt="sea bay">
+        <img src="wpid17294-Sunrise-at-Pine-Forest-and-Palm-Scrubs.jpg" alt="forest sunrise">
+        <img src="78ace924618905f543311d98e5e38d41.jpg" alt="sky scraper">
+        <img src="Cherry_Blossoms_1-scaled.webp" alt="cherry blossoms">
+        <img src="HD-wallpaper-piano-keys-macro-musical-instrument.jpg" alt="piano keys">
+        <img src="428583.jpg" alt="violin">
+        <img src="guitar-case-alley-grunge.jpg" alt="guitar case">
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto ;
+
+    background-color: peru;
+    padding: 10px;
+    color: white;
+    height: 100vh;
+    font-size: 150px;
+    text-align: center;
+    
+    /* the following is for the Flex solution */
+    /* display: flex;
+    flex-direction: row; */
+
+}
+/* the following is for the Flex solution */
+/* .container div {
+    width: 11.11%;
+} */
+.item1 {
+    background-color: green;
+}
+.item2 {
+    background-color: yellow;
+}
+.item3 {
+    background-color: purple;
+}
+.item4 {
+    background-color: gray;
+}
+.item5 {
+    background-color: blue;
+}
+.item6 {
+    background-color: orange;
+}
+.item7 {
+    background-color: pink;
+}
+.item8 {
+    background-color: red;
+}
+.item9 {
+    background-color: darkred;
+}

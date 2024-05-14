@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: auto auto;
+            
+            height: 100vh;
+            color: white;
+            font-size: 100px;
+            text-align: center;
+
+            /* the following is for the Flex solution */
+            /* display: flex;
+            flex-direction: row;
+            width: 100%; */
+            
+            
+        }
+        .part1 {
+            background-color: orange;
+            align-content: center;
+            width: 100%;
+
+        }
+        .part2 {
+            background-color: blue;
+            align-content: center;
+            width: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    <!-- there's two solutions, one using grids, and the other using flex -->
+
+    <div class="container">
+        <div class="part1">First Part</div>
+        <div class="part2">Second Part</div>
+    </div>
+</body>
+</html>

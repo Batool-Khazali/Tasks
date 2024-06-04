@@ -82,7 +82,7 @@ function order (d , e , f){
 d = 0;
 e = -1;
 f = 4;
-// window.alert(order(d,e,f))
+window.alert(order(d,e,f))
 console.log(order(d,e,f))
 
 
@@ -107,7 +107,7 @@ for ( let i of arr) {
     }
 }
 
-// window.alert(biggest)
+window.alert(biggest)
 console.log(biggest)
 
  /******* End Your Code ********* */

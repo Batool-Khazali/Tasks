@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#hello {
+    width: 75%;
+    height: 100px;
+    background-color: yellow;
+    text-align: center;
+    align-content: center;
+    border: 1px solid black;
+    font-size: 2em;
+}
+
+#flag{
+    width: 25%;
+    /* opacity: 0; */
+}
+
+
+#box {
+    border: 3px solid black;
+    width: 80%;
+    height: 300px;
+    padding: 5px;
+}

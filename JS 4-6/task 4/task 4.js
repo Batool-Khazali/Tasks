@@ -649,8 +649,15 @@ Ex: counter()
 
 */
 
+// after a hint of leaving out loops
+// the final answer doesn't even need the hours spent on this and the following one
+let num = 0;
+function counter() {
+  num++
+  console.log(num)
+}
 
-// try ? almost there
+// try ? almost there ?
 // let val = 0
 // function counter(start) {
 //   for (i = start; i<=10; i++) {
@@ -733,9 +740,14 @@ Ex: counter()
 => 1
 */
 
-// my idea for this part was to have the function change the parameter (start) of the counter back to zero
-// i was unfotunatly unable to display the previous part as intented (all numbers are displayed at once) so i couldn't test my idea
 
+function resetCounter() {
+  num = 1
+  console.log(num)
+}
 
-
-
+counter()
+counter()
+counter()
+resetCounter()
+counter()

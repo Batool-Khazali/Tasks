@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="exc1">
+        <h1 id="hello">Hello world!</h1>
+    </div>
+    <br><hr><br>
+
+    <div id="color"></div>
+    <br><hr><br>
+
+    <select id="country">
+        <option value="images/noimage.png" alt="no image" selected disabled hidden>Select</option>
+        <option value="images/jordan.png" alt="Jordan">Jordan</option>
+        <option value="images/palastine.png" alt="Palastine">Palastine</option>
+        <option value="images/saudi.png" alt="Saudi Arabia">Saudi Arabia</option>
+        <option value="images/egypt.png" alt="Egypt">Egypt</option>
+        <option value="images/syria.png" alt="Syria">Syria</option>
+    </select>
+    <br><br>
+    <img src="images/noimage.jpg" alt="" id="flag">
+    <br><hr><br>
+
+
+    <form action="" method="post">
+        <select name="font" id="font">
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Arial">Arial</option>
+            <option value="Courier New">Courier New</option>
+            <option value="Lucida Handwriting">Lucida Handwriting</option>
+            <option value="Papyrus">Papyrus</option>
+        </select>
+
+        <select name="size" id="size">
+            <option value="5px">5px</option>
+            <option value="10px">10px</option>
+            <option value="15px">15px</option>
+            <option value="20px">20px</option>
+            <option value="25px">25px</option>
+            <option value="30px">30px</option>
+        </select>
+
+        <input type="checkbox" id="italic" name="italic" value="italic" >
+        <label for="italic" > Italic</label>
+        
+        <input type="checkbox" id="bold" name="bold" value="bold">
+        <label for="bold"> Bold</label>
+
+        <input type="checkbox" id="underline" name="underline" value="underline">
+        <label for="underline"> Underline</label>
+
+        <br><br>
+
+        <div id="box"><p id="text">the quick brown fox over the lazy dog</p> </div>
+    </form>
+    <br><hr><br>
+
+
+    <form action="" method="post">
+        <div class="box2">
+            <label for="password">Passwprd (min 6 characters) :</label>
+            <input type="password" name="password" id="password">
+            <span id="length"></span>
+        </div>
+        <br>
+        <div class="box2">
+            <label for="repeat">Repeat password :</label>
+            <input type="password" name="repeat" id="repeat">
+            <span id="match"></span>
+        </div>
+        <div class="box2">
+            <input type="submit" value="submit" id="submit">
+        </div>
+    </form>
+    <br><hr><br>
+
+
+
+    <input type="text" name="song" id="song" placeholder="Song name">
+    <button id="addSong">Add Song</button>
+    <br><br>
+    <div id="songList">
+        <p>My favorite song</p>
+        <p>My second favorite song</p>
+        <p>I like this song too</p>
+    </div>
+
+
+    <script src="tasks.js"></script>
+</body>
+</html>

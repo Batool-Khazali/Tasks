@@ -351,22 +351,23 @@ Ex: shorterString("air","tr","car","github","by")
 
 */
 
+
 function shorterString(str1 ,str2, str3, str4, str5) {
   let shortest;
   if (str1.length <= str2.length && str1.length <= str3.length && str1.length <= str4.length && str1.length <= str5.length) {
     shortest = str1
   } 
   else if (str2.length <= str1.length && str2.length <= str3.length && str2.length <= str4.length && str2.length <= str5.length) {
-    return str2
+    shortest = str2
   }
   else if (str3.length <= str1.length && str3.length <= str2.length && str3.length <= str4.length && str3.length <= str5.length) {
-    return str3
+    shortest = str3
   }
   else if (str4.length <= str1.length && str4.length <= str2.length && str4.length <= str3.length && str4.length <= str5.length) {
-    return str4
+    shortest = str4
   }
   else {
-    return str5
+    shortest = str5
   }
   return shortest
 }
@@ -392,8 +393,8 @@ try all the cases (change the order of the longestString)
 
 function longerString(strA, strB, strC, strD) {
   let longest = '';
-  let strArr = [strA, strB, strC, strD];
-  for (let i of strArr) {
+  let strArr2 = [strA, strB, strC, strD];
+  for (let i of strArr2) {
     longest = strA
     if (i.length > longest.length) {
       longest = i
@@ -649,9 +650,10 @@ Ex: counter()
 
 */
 
-// after a hint of leaving out loops
+// after some help
 // the final answer doesn't even need the hours spent on this and the following one
 let num = 0;
+
 function counter() {
   num++
   console.log(num)

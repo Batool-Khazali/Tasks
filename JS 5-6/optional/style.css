@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+}
+
+.exc1 {
+    background-color: yellow;
+    border: 1px solid black;
+    text-align: center;
+    width: 50%;
+}
+
+#color {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
+#flag{
+    width: 25%;
+}
+
+#box {
+    border: 3px solid black;
+    width: 80%;
+    height: 300px;
+    padding: 5px;
+}
+
+.box2{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+#submit {
+    display: none;
+}
+
+#song {
+    width: 30%;
+}
+
+#songList p{
+    border: 1px solid black;
+    box-shadow: 0 0 3px;
+    background-color: rgb(239, 239, 239);
+    margin: 0px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    align-content: center;
+}

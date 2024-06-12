@@ -150,9 +150,9 @@ repeatPassword.addEventListener("input", function() {
 const songName = document.getElementById('song');
 const addSong = document.getElementById('addSong');
 const list = document.getElementById('songList')
-let newSong = document.createElement('p')
 
 addSong.addEventListener('click', function () {
+    let newSong = document.createElement('p')
     newSong.innerHTML = songName.value
     list.appendChild(newSong)
 })
